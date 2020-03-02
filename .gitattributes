@@ -3,6 +3,8 @@
 
 # Always LF line-endings
 *.sh text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
 
 # Always CRLF line-endings
 *.sln text eol=crlf
@@ -16,3 +18,8 @@
 *.eot     -text diff
 *.woff    -text diff
 *.woff2   -text diff
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.pdf binary

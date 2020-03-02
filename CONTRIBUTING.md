@@ -10,7 +10,7 @@ There is a single mainline branches `master` which is used for trunk-based devel
 
 1. [Fork](http://help.github.com/forking/) on GitHub
 1. Clone your fork locally
-1. Configure the `upstream` repo (`git remote add upstream git://github.com/OpenVASP/openvasp-csharp-client.git`)
+1. Configure the `upstream` repo (`git remote add upstream git://github.com/OpenVASP/openvasp-specification.git`)
 1. Checkout `master` (`git checkout master`)
 1. Create a local branch (`git checkout -b my-branch`). The branch name should be descriptive, or it can just be the GitHub issue number which the work relates to, e.g. `123`.
 1. Work on your change
