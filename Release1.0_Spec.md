@@ -51,7 +51,7 @@ As defined in the original [Whitepaper](https://www.openvasp.org/wp-content/uplo
 ## 6. Interfaces
 
 ### 6.1 User Interface 
-Any standalone OpenVASP must allow a complete Travel Rule flow execution through the UI. All open Sessions must be visibel with all relevant information (exchanged data, current status, timestamps of last events).
+Any standalone OpenVASP must allow a complete Travel Rule flow execution through the UI. All open Sessions must be visible with all relevant information (exchanged data, current status, timestamps of last events).
 
 ### 6.2 Application Interface
 Any standalone OpenVASP must allow a complete Travel Rule flow execution through the API.
