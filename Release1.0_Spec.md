@@ -2,7 +2,8 @@
 Title: Specification of OpenVASP version 1.0
 Author: Felix Laufenberg <felix.laufenberg@bitcoinsuisse.com>
 Created: 2020-06-02
-Document Version: 0.1
+Updated: 2020-06-08
+Document Version: 0.2
 ```
 # Abstract
 
@@ -17,7 +18,7 @@ The assumed baseline is the OpenVASP Whitepaper specification. This document spe
 A lookup table according, mapping VASP Code Type fields to VASP Index contracts must be implemented, representing the current mappings as specified in [ovip-0002](https://github.com/OpenVASP/ovips/blob/master/ovip-0002.md#211-vasp-code-type). 
 
 ### 1.2 Public Key Retrieval
-Any compatible client software must be to look up another VASPs public encryption keys from a standardized VASP Index contract, given a VASP Identifier as specified in [ovip-0002](https://github.com/OpenVASP/ovips/blob/master/ovip-0002.md#216-vasp-identifier). 
+Any compatible client software must be to look up another VASPs public encryption keys from a standardized VASP Index contract, given a VASP Identifier as specified in [ovip-0002](https://github.com/OpenVASP/ovips/blob/master/ovip-0002.md#216-vasp-identifier) and [ovip-0003](https://github.com/OpenVASP/ovips/blob/master/ovip-0003.md). 
 
 ## 2. Transport Layer Integration
 
@@ -43,7 +44,7 @@ Content and signature of Session Layer messages must be reliably persisted for 1
 ## 5. Application Layer 
 
 ### 5.1 Travel Rule Implementation
-As defined in the original [Whitepaper](https://www.openvasp.org/wp-content/uploads/2019/11/OpenVasp_Whitepaper.pdf?cache=1).
+As defined in the original [Whitepaper](https://www.openvasp.org/wp-content/uploads/2019/11/OpenVasp_Whitepaper.pdf?cache=1) and refined by [ovip-0006](https://github.com/OpenVASP/ovips/blob/master/ovip-0006.md).
 
 ### 5.2 Modular Implementation
 (recommended) Flexibel solution architecture to easily add more application layer protocols later on.
